@@ -1,0 +1,42 @@
+{
+  "PRODUCTION": {
+    "DATABASE_NAME" : "",
+    "DATABASE_USER_NAME": "",
+    "DATABASE_PASSWORD": "",
+    "DATABASE_DIALECT":"",
+    "DATABASE_HOST": "",
+    "DATABASE_POOL_PROPERTIES": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "STAGING": {
+    "DATABASE_NAME" : "",
+    "DATABASE_USER_NAME": "",
+    "DATABASE_PASSWORD": "",
+    "DATABASE_DIALECT":"",
+    "DATABASE_HOST": "",
+    "DATABASE_POOL_PROPERTIES": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "DEVELOPMENT": {
+    "DATABASE_NAME" : "CLUB-75",
+    "DATABASE_USER_NAME": "postgres",
+    "DATABASE_PASSWORD": null,
+    "DATABASE_DIALECT":"postgres",
+    "DATABASE_HOST": "127.0.0.1",
+    "DATABASE_POOL_PROPERTIES": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+
+}
